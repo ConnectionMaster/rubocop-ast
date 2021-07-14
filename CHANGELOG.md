@@ -2,6 +2,41 @@
 
 ## master (unreleased)
 
+## 1.8.0 (2021-07-14)
+
+### New features
+
+* [#192](https://github.com/rubocop/rubocop-ast/pull/192): Add `branches` method for `AST::CaseMatchNode`. ([@koic][])
+
+### Changes
+
+* Escape References in Documentation, partially addressing https://github.com/rubocop/rubocop/issues/9150. ([@wcmonty][])
+
+## 1.7.0 (2021-05-28)
+
+### New features
+
+* [#171](https://github.com/rubocop-hq/rubocop-ast/pull/171): Add `SendNode#def_modifier` that returns the `def` node it modifies, or `nil`. ([@marcandre][])
+* [#186](https://github.com/rubocop-hq/rubocop-ast/pull/186): Add `pattern` method for `AST::InPatternNode` node. ([@koic][])
+
+## 1.6.0 (2021-05-26)
+
+### New features
+
+* [#183](https://github.com/rubocop-hq/rubocop-ast/pull/183): Add `AST::InPatternNode` node. ([@koic][])
+
+## 1.5.0 (2021-05-02)
+
+### New features
+
+* [#182](https://github.com/rubocop-hq/rubocop-ast/pull/182): Support `Parser::Ruby31` for Ruby 3.1 parser (experimental). ([@koic][])
+
+## 1.4.2 (2021-05-02)
+
+### Bug fixes
+
+* [#179](https://github.com/rubocop-hq/rubocop-ast/pull/179): Have `ast_with_comments` distinguish nodes with same content. ([@marcandre][])
+
 ## 1.4.1 (2021-01-23)
 
 ### Changes
@@ -218,3 +253,5 @@
 [@koic]: https://github.com/koic
 [@dvandersluis]: https://github.com/dvandersluis
 [@eugeneius]: https://github.com/eugeneius
+
+[@wcmonty]: https://github.com/wcmonty
